@@ -1,0 +1,235 @@
+<!-- 
+CLASE 4
+En el siguiente práctico desarrollaremos
+0- Terminamos de agregar un div con h4 a cada elemento de las tablas con el titulo y su class
+1- Cargamos el footer con 3 enlaces
+2- Completamos top-rated con sus contenedores div
+3- Diseñamos el form de busquedas en la seccion search
+4- Completaremos la página register.html con un form
+5- Trabajaremos en detail-movie.html CORRGIMOS LA NAVBAR QUITANDO TENDENCIAS y la direccion de CAC-MOVIES a la HOME
+        * incrustaremos un elemento multi
+5- Trabajaremos en detail-movie.html CORRGIMOS LA NAVBAR QUITANDO TENDENCIAS y la direccion de CAC-MOVIES a la HOME
+        * incrustaremos un elemento multimedia con la etiqueta iframe y exploraremos las distintas opciones
+        * Utilizaremos tablas para diseñar parte de la pagina detail
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Movies, peliculas y series onliine</title>
+    <!-- zona del favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <!-- zona de script para activar íconos-->
+    <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- diseño de la barra de navegación -->
+        <nav>
+            <a href="./index.html"><i class="fa-solid fa-film"></i>Cac-Movies</a>
+
+            <ul type="square">
+                <li> <a href="#popular">Tendencias</a> </li>
+                <li> <a href="./templates/Register.html" title="Haz click aqui para registrarte">Register</a></li>
+
+                <li> <a href="http://" target="_blank" title="Haz clik aqui para ir a la API">API Movie</a></li>
+                <li> <a href="#">Iniciar Sesión</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- esta es la parte principal de nuestra página -->
+    <main>
+        <!-- seccion de portada -->
+        <section id="banner">
+            <div>
+                <!--Titular -->
+                <h1>Peliculas y series ilimitadas en un solo lugar</h1>
+                <h2>Disfruta donde quieras.
+                    <br>
+                    Cancela en cualquier momento.
+                </h2>
+                <a href="./templates/Register.html">Registrate</a>
+
+            </div>
+        </section>
+
+        <!-- Buscador de peliculas-->
+        <section id="search">
+            <h3>Qué estas buscando para ver?</h3>
+            <!--El formulario de busqueda-->
+            <form action="" method="get" class="movie-search">
+                <label> Ingrese la Pelicula a buscar</label>
+                <input type="text" placeholder="Buscar..." class="input-search">
+                <input type="submit" value="Buscar" class="input-button">
+            </form>
+        </section>
+
+        <section id="popular">
+            <div>
+                <h3>Las tendencias de hoy</h3>
+                <div id="List-popular">
+                    <table>
+                        <!--Primera fila-->
+                        <tr>
+                            <td><a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <!--Segunda fila-->
+                        <tr>
+                            <td> <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td><a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/200" alt="Imagen random"
+                                            title="Haz click por mas info">
+                                        <h4>Titulo de la pelicula</h4>
+                                    </div>
+                                </a>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="top-rated">
+            <h3>Las mas aclamadas</h3>
+            <div id="list-top-rated">
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+                <div class="movie-item">
+                    <a href="#">
+                        <img src="https://picsum.photos/200" alt="Imagen random" title="Haz click por mas info">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <a href="#"> Terminos y condiciones</a> &nbsp; &nbsp;
+        <a href="#">Preguntas Frecuentes</a> &nbsp; &nbsp;
+        <a href="#">Ayuda</a> &nbsp; &nbsp;
+        <a href="#">Administrador de Peliculas</a> &nbsp; &nbsp;
+    </footer>
+
+
+
+</body>
+
+</html>
