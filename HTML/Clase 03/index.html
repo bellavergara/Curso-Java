@@ -1,0 +1,152 @@
+<!-- 
+CLASE 3
+En el siguiente práctico desarrollaremos
+1- Etiquetas links para crear un favicon
+2- Cambiamos la etiqueta del logo <h1> por una etiqueta <a> que es lo mas correcto en diseño
+2- Dividimos nuestro diseño de pagina en la zona principal con <main> y el pie de página <footer>
+4- Dentro del main dividimos la página en 3 secciones con etiqueta <section> y las identificaremos con el atributo id
+5- Diseñamos la portada principal con etiquetas h1 h2 y un boton correctamente diseñados
+6- Dis
+6- Diseñamos las secciones busquedas (el formulario diseñaremos la clase que viene), tendencias y mas aclamadas en principio con tablas luego cambiaremos
+7- Cargamos el footer con 3 enlaces
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Movies, peliculas y series onliine</title>
+    <!-- zona del favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <!-- diseño de la barra de navegación -->
+        <nav>
+            <a href="./index.html">Cac-Movies</a>
+
+            <ul type="square">
+                <li> <a href="#popular">Tendencias</a> </li>
+                <li> <a href="./templates/Register.html" title="Haz click aqui para registrarte">Register</a></li>
+
+                <li> <a href="http://" target="_blank" title="Haz clik aqui para ir a la API">API Movie</a></li>
+                <li> <a href="#">Iniciar Sesión</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- esta es la parte principal de nuestra página -->
+    <main>
+        <!-- seccion de portada -->
+        <section id="banner">
+            <div>
+                <!--Titular -->
+                <h1>Peliculas y series ilimitadas en un solo lugar</h1>
+                <h2>Disfruta donde quieras.
+                    <br>
+                    Cancela en cualquier momento.
+                </h2>
+                <a href="./templates/Register.html">Registrate</a>
+
+            </div>
+        </section>
+
+        <!-- Buscador de peliculas-->
+        <section id="search">
+            <h3>Qué estas buscando para ver?</h3>
+            <!--El formulario de busqueda-->
+        </section>
+
+        <section id="popular">
+            <div>
+                <h3>Las tendencias de hoy</h3>
+                <div id="List-popular">
+                    <table>
+                        <!--Primera fila-->
+                        <tr>
+                            <td> <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <!--Segunda fila-->
+                        <tr>
+                            <td> <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <div class="movie"><img src="https://picsum.photos/" alt="" title=""></div>
+                                </a>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="top-rated"></section>
+    </main>
+
+    <footer></footer>
+
+
+
+</body>
+
+</html>

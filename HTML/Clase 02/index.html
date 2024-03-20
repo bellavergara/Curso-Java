@@ -1,0 +1,61 @@
+// clase 02 Java//
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cac-Movies, peliculas y series onliine</title>
+</head>
+<body>
+    <!-- 
+En este práctico vamos a comenzar a desarrollar un sitio web
+En esta clase vamos a estructurar un menú valiendonos de listas y etiquetas
+semánticas correspondientes
+Vamos a establecer rutas para conectar distintas páginas 
+1- Diseñamos la barra de navegación
+2- vinculamos la seccion API Movie con la página con referencias absolutas
+3- Creamos la página register.html 
+4- Vinculamos el menú con la pagina register.html con referencias relativas
+5- Generamos un enlace interno
+6- Generamos una
+una descarga de archivo
+-->
+
+<header>
+     <!-- diseño de la barra de navegación -->
+    <nav>
+      <h1>Cac-Movies</h1>
+
+        <ul type="square">
+            <li>Tendencias </li>
+            <li>Register</li>
+
+            <li>API Movie</li>
+            <li>Iniciar Sesión</li>
+        </ul>
+    <!-- diseño de de menu con etiqueta de listas ordenadas -->
+    
+        <ol type="i">
+            <li>Tendencias </li>
+            <li> <a href="./Register.html" title="Haz click aqui para registrarte">Register</a></li>
+            <!-- Trabajamos con enlaces absolutos -->
+            <!--
+                    introducimos la etiqueta a con su atributo href
+                    hfer indica donde debe dirigiste el vinculo al hacer click 
+                    Para abrir un enlace en una nueva ventana o pestaña, 
+                    puedes utilizar el valor _blank
+                -->
+            <li> <a href="http://" target="_blank" title="Haz clik aqui para ir a la API">API Movie</a></li>
+            <li>Iniciar Sesión</li>
+        </ol>
+
+    
+    </nav>
+
+</header>
+
+
+
+</body>
+</html>
