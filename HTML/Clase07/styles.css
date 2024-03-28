@@ -1,0 +1,35 @@
+/*Configuraciones globales*/
+
+:root{
+    /*Configuracion de colores*/
+    --primari-color:#9f3647;
+
+}
+
+body,html{
+    font-family:var(--primari-color) ;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    background-color: #9f3647;
+    padding: 2vh,0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*centra horizontalmente*/
+}
+
+nav ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+nav ul li{
+    display: inline-block;
+}
