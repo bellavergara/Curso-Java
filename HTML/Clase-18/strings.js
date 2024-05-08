@@ -12,3 +12,9 @@ console.log(txt.length);
 
 //3 - Consultamos la letra cargada en un Indice
 console.log(txt.charAt(9));
+
+
+// practica String 
+
+let string = ["texto, numeros, elementos"];
+console.log(string.length);
