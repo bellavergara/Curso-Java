@@ -18,3 +18,5 @@ console.log(txt.charAt(9));
 
 let string = ["texto, numeros, elementos"];
 console.log(string.length);
+// realizar siguiente actividad 
+
