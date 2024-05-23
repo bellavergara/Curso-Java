@@ -28,6 +28,7 @@ console.log(datos.name,datos.image);
 })
 
 // declaramos una function para renderizar elementos del DOM 
+// actividad realizada en clases
 
 function pedirDatos(){
     fetch("https://rickandmortyapi.com/api/character")
